@@ -1144,6 +1144,7 @@ $ ./exread1.sh
 
 ## OUTPUT
 
+<img width="621" height="130" alt="93" src="https://github.com/user-attachments/assets/52ae53c7-ee10-48c1-8a5b-70cce84e1034" />
 
 
 
@@ -1169,8 +1170,10 @@ fi
  
  ./funcex.sh 1 2
 
+<img width="610" height="108" alt="94" src="https://github.com/user-attachments/assets/22bcff71-d29d-44e9-8027-50bf28b26a0f" />
+
  
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1180,8 +1183,13 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+
+ ## OUTPUT
+
+
+<img width="635" height="117" alt="95" src="https://github.com/user-attachments/assets/7fa27817-e1b1-4956-82df-e747cbf19d18" />
  
  cat argshift1.sh
 ```bash
@@ -1197,8 +1205,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="639" height="145" alt="96" src="https://github.com/user-attachments/assets/2366dc7c-d043-4161-871e-dcc21e6b9ae1" />
+
  
 cat argshift.sh
 ```bash
@@ -1210,10 +1223,15 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
  ./argshift.sh 1 2 3
  
- 
+
+## OUTPUT
+
+<img width="683" height="383" alt="97" src="https://github.com/user-attachments/assets/47fc14f4-c46d-4310-a0d8-3c8d3982d14e" />
+
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1243,6 +1261,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+<img width="538" height="322" alt="98" src="https://github.com/user-attachments/assets/0c702849-7498-4027-aeb1-08cedaca6efe" />
+
  
 cat > palindrome.sh
 ```bash
@@ -1270,6 +1291,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+<img width="559" height="131" alt="99" src="https://github.com/user-attachments/assets/9899d0ee-35df-44d7-b553-4d7412891a25" />
 
 
 # RESULT:
